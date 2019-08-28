@@ -14,18 +14,16 @@ Comment.destroy_all
 Relationship.destroy_all
 
 dylan = User.create(
-    email: "dylanharris23@gmail.com",
     username: "WestCaliLvin",
-    password_digest: "Nunubunny5",
+    password: "Nunubunny5",
     avatar: "image",
     bio: "Hey just call me West"
 
 )
 
 rinda = User.create(
-    email: "rindaharris@verizon.net",
     username: "Rinda",
-    password_digest: "bunny5",
+    password: "bunny5",
     avatar: "image",
     bio: "What's up?"
 
